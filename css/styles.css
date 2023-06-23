@@ -1,0 +1,366 @@
+/* Index.html styling */
+/*Page Styling*/
+#page-body {
+  background-color: #e0e6f6;
+}
+
+.page-wrapper{
+  background: rgba( 255, 248, 248, 0.4 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 11.5px );
+  -webkit-backdrop-filter: blur( 11.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+  text-align: center;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.page-wrapper > h1 {
+  text-align: center;
+}
+
+.page-wrapper > h2 {
+  margin: 24px;
+}
+
+.page-wrapper > p {
+  text-align: justify;
+  margin: 3rem;
+}
+
+.page-wrapper > ul {
+  text-align: justify;
+  margin: 3rem;
+}
+/* Start Navbar Area */
+.navbar-nav{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+  
+}
+/* End Navbar Area */
+
+
+/* Start main banner Area */
+.main-banner {
+  height: 95vh;
+  background-image: url(../images/main-banner1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -86px;
+  
+}
+  
+.main-banner-content {
+  
+  max-width: 600px;
+  margin-left: 8%;
+}
+
+.main-banner-content > h1 {
+  padding-top: 20%;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: 700;
+}
+  
+.main-banner-content p {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  max-width: 400px;
+  margin-top: 30px 16px 0 0;
+  margin-bottom: 36px;
+  line-height: 1.5;
+}
+
+.btn {
+  font-weight: 700;
+  border: none;
+  margin-right: 20px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  color: white;
+  background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #0d6efd 0%, #0dcaf0 100%);
+}
+/* End Main Banner Area */
+
+/* Start Feauture Image Area */
+.featured-image {
+  width: 80px;
+  height: 80px;
+}
+/* End Feature Image Area */
+
+/* Start Services Area */
+#service-cover {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}
+
+.service-items {
+  box-sizing: border-box;
+  min-width: 250px;
+  max-width: 300px;
+  height: 300px;
+  margin: 24px auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 4px 4px 4px #ccc;
+  background-color: white;
+  
+}
+
+.service-items > h1 {
+  padding: 2rem;
+}
+
+
+.service-items > p {
+  padding: 1rem;
+}
+
+
+.service-image {
+  width: 8rem;
+  height: 8rem;
+  padding: 1rem;
+}
+
+/* End Services Area */
+
+/* Start Download App Area */
+.download-banner {
+  height: 95vh;
+  background-image: url(../images/download-app.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+  
+.download-banner-content {
+  
+  max-width: 600px;
+  margin-left: 5%;
+}
+
+.download-banner-content > h1 {
+  padding-top: 22%;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: 700;
+}
+  
+.download-banner-content p {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  max-width: 400px;
+  margin-top: 30px 16px 0 0;
+  margin-bottom: 40px;
+  line-height: 2;
+}
+
+.app-download{
+  width: 25px;
+  height: 20px;
+  padding-right: 5px;
+}
+/* End Download mobile app area */
+
+/*Start Testimonies section */
+#testimonies{
+  text-align: center;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #ccc;
+}
+
+/*End Testimonies section */
+
+/*Start Newsletter section */
+#newsletter-section {
+  text-align: center;
+  margin: 0 auto;
+  padding: 3rem;
+  background-color: #f2f6ff;
+}
+
+#news-box {
+  font-weight: 700;
+  border: 1px solid #ccc;
+  margin-right: 20px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 4px;
+  position: relative;
+  color: black;
+}
+
+/*End Newsletter section */
+
+/* Start of Footer section */
+#footer {
+  padding: 30px;
+  background-color: #ccc;
+}
+
+#copyright-section {
+  text-align: center;
+  margin: 0 auto auto 0;
+  text-decoration: none;
+  background-color: #ccc;
+}
+
+#copyright-section > p {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.footer-text {
+  text-decoration: none;
+}
+
+.footer-icons{
+  width: 2rem;
+  height: 2rem;
+  margin:0 16px 16px 0;
+  
+}
+ 
+/* Mobile Responsive Area*/
+
+@media screen and (max-width: 600px) {
+  /*Page Styling*/
+  #page-body {
+    background-color: #f6f6f6;
+  }
+  
+  .page-wrapper{
+    background: white;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  .page-wrapper > p {
+    margin: 24px;
+  }
+  
+  .page-wrapper > ul {
+    margin: 24px;
+  }
+
+  /*Navbar Styling*/
+  .ncolor{
+    font-size: 18px;
+    text-align: center;
+    background-color: #453e3e;
+  }
+
+  .ncolors{
+    font-size: 18px;
+    text-align: center;
+    background-color: #f2f6ff;
+  }
+  /*Main Banner Styling*/
+  .main-banner-content{
+    margin-left: 5%;
+    max-width: 70%;
+  }
+  
+  .main-banner-content > h1 {
+    padding-top: 60%;
+    margin-bottom: 12px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+  }
+    
+  .main-banner-content p {
+  color: #ffffff;
+  font-size: 16px;
+  max-width: 70%;
+  margin-top: 30px 16px 0 0;
+  margin-bottom: 36px;
+  }
+
+  /*Services Styling*/
+  .service-items {
+    box-sizing: none;
+    border: none;
+    border-radius: none;
+    box-shadow: none;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  /*Download App Section Styling*/
+  .download-banner {
+    height: 95vh;
+  }
+  .download-banner-content > h1 {
+    padding-top: 20%;
+    margin-bottom: 50px;
+    color: #e0e6f6;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 10px;
+    max-width: 70%;
+  }
+    
+  .download-banner-content p {
+  color: transparent;
+  margin-left: 4%;
+  max-width: 70%;
+  }
+
+  .btn {
+    display: inline-block;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 30px auto;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .c-color {
+    color: black;
+    font-weight: 600;
+  }
+
+  
+}

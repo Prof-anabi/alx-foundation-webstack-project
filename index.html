@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Banking Group</title>
+
+    
+    <!-- Styling files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="scripts/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/png" href="images/ebg-favicon.png">
+
+    <!-- Emailjs scripts -->
+    <script src="scripts/index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("2Yci4VIBrJoFPsHwp");
+        })();
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <!-- Start Navbar Area -->
+        <nav class="navbar navbar-expand-lg navbar-dark" >
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                <img class="logo" src="images/ebg-logo.png" alt="logo" >
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto ncolor">
+                  <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  <a class="nav-link" aria-current="page" href="index.html#services">SERVICES</a>
+                  <a class="nav-link" href="branches.html">BRANCHES</a>
+                  <a class="nav-link" href="resources.html">RESOURCES</a>
+                  <a class="nav-link" href="about-us.html">ABOUT</a>
+                  <a class="nav-link" href="contact.html">CONTACT</a>
+                  <a class="nav-link" href="faqs.html">FAQS</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!-- End Navbar Area -->
+    </header>
+
+    <main>
+
+        <!-- Start Main Banner Area -->
+        <div class="main-banner">
+            <div class="main-banner-content">
+                <h1>Smart-free banking for everybody</h1>
+                <p>Bank smarter with us now and browse personal and consumer banking services</p>
+                <a href="#banking-app" class="btn btn-primary">MOBILE BANKING</a>
+            </div>
+        </div>
+        <!-- End Main Banner Area -->
+
+        <!-- Start Featured Boxes Area -->
+        <section class="featured-boxes-area">
+            <div class="container">
+                <div class="featured-boxes-inner">
+                    <div class="row m-0">
+                        <div class="col-lg-3 col-sm-6 col-md-6 p-0">
+                            <div class="single-featured-box">
+                                <div class="icon">
+                                    <img class="featured-image" src="images/cc.png" alt="feature-image">
+                                </div>
+
+                                <h3>Credit Cards</h3>
+                                <!-- <p>Find a credit card that fits your lifestyle.</p> -->
+
+                                <a href="faqs.html" class="read-more-btn">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 col-md-6 p-0">
+                            <div class="single-featured-box">
+                                <div class="icon">
+                                    <img class="featured-image" src="images/savings.png" alt="">
+                                </div>
+
+                                <h3>Savings</h3>
+                                <!-- <p>The right savings account can help put your goals within reach.</p> -->
+
+                                <a href="faqs.html" class="read-more-btn">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 col-md-6 p-0">
+                            <div class="single-featured-box">
+                                <div class="icon">
+                                    <img class="featured-image" src="images/e-banking.png" alt="">
+                                </div>
+
+                                <h3>E-Banking</h3>
+                                <!-- <p>Checking that works for you.</p> -->
+
+                                <a href="faqs.html" class="read-more-btn">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-sm-6 col-md-6 p-0">
+                            <div class="single-featured-box">
+                                <div class="icon">
+                                    <img class="featured-image" src="images/secure1.png" alt="">
+                                </div>
+
+                                <h3>Safe and Secure</h3>
+                                <!-- <p>Learn how we’re focused on being flexible, resilient and responsible.</p> -->
+
+                                <a href="faqs.html" class="read-more-btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Featured Boxes Area -->
+
+        <!-- Start of services section -->
+        <section id="services">
+            <div class="page-wrapper">
+                <h1>Our Services</h1>
+                <div id="service-cover">
+                    <div class="service-items">
+                        <img class="service-image" src="images/persnal1.png" alt="personal image">
+                        <h3>Personal Account</h3>
+                        <p>Open a Savings or Current account with us and get profits.</p>
+                    </div>
+                    <div class="service-items">
+                        <img class="service-image" src="images/business.png" alt="business image">
+                        <h3>Business Account</h3>
+                        <p>An unrivaled financial partner for all your business requirements</p>
+                    </div>
+                    <div class="service-items">
+                        <img class="service-image" src="images/instant-loan.png" alt="loan image">
+                        <h3>24h Instant Loan</h3>
+                        <p>A personal loan just in the time when you need it most</p>
+                    </div>
+                    <div class="service-items">
+                        <img class="service-image" src="images/transfer.png" alt="transfer image">
+                        <h3>Money Transfer</h3>
+                        <p>Receive funds from any location around the globe</p>
+                    </div>
+                    <div class="service-items">
+                        <img class="service-image" src="images/e-banking11.png" alt="e-banking image">
+                        <h3>E - Banking</h3>
+                        <p>Bank smart with our e-products and services</p>
+                    </div>
+                    <div class="service-items">
+                        <img class="service-image" src="images/link.png" alt="home image">
+                        <h3>Link 2 Home</h3>
+                        <p>Save at home while abroad, fast and secured</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of services section -->
+
+        <!-- Start of download our mobile app section -->
+        <section id="banking-app">
+            <div class="download-banner">
+                <div class="download-banner-content">
+                    <h1>Download our mobile banking app</h1>
+                    <p>Bank smarter with us now and browse personal and consumer banking services</p>
+                    <a href="#" class="btn btn-primary"><img class="app-download" src="images/android.png" alt="Google Playstore image">PLAYSTORE</a>
+                    <a href="#" class="btn btn-primary"><img class="app-download" src="images/apple.png" alt="Apple image"> APPLESTORE</a>
+                </div>
+            </div>
+        </section>
+        <!-- End of download our mobile app section -->
+
+        <!--Start of testimonies section-->
+        <section id="testimonies-section">
+            <div id="testimonies">
+                <h1>Testimonies</h1>
+                <p>Hear what our customers are saying ...</p>
+            </div>
+            
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <!-- <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div> -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="images/c1.jpg" class="d-block w-100" alt="customer image">
+                    <div class="carousel-caption c-color">
+                      <h5>Rose Appiah - Nurse</h5>
+                      <p>EBG is the best banking institution. I am a happy customer.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/c2.jpg" class="d-block w-100" alt="customer image">
+                    <div class="carousel-caption c-color">
+                      <h5>James Boadu - Teacher</h5>
+                      <p>EBG mobile app provides a seamless banking to everyone.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/c1.jpg" class="d-block w-100" alt="customer image">
+                    <div class="carousel-caption c-color">
+                      <h5>Ofosu Millicent - Trader</h5>
+                      <p>EBG 24 hour loan is a life saver to our businesses.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/c2.jpg" class="d-block w-100" alt="customer image">
+                    <div class="carousel-caption c-color">
+                      <h5>Isaac Awini - Farmer</h5>
+                      <p>With EBG, I can afford farm inputs anyday, anytime.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/c1.jpg" class="d-block w-100" alt="customer image">
+                    <div class="carousel-caption c-color">
+                      <h5>Sandra Amanor - Seamstress</h5>
+                      <p>EBG makes banking easier with their customer support services.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/c2.jpg" class="d-block w-100" alt="customer image">
+                    <div class="carousel-caption c-color">
+                      <h5>Paul Agyei - Businessman</h5>
+                      <p>EBG makes business decisions easier, just a snap.</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </section>
+        <!--End of testimonies section-->
+
+        <!--Start of Newsletter subscription section-->
+        <section>
+            <div id="newsletter-section">
+                <h1>Subscribe to our Newsletter</h1>
+                <p>Get early access to finanacial information and make informed decisions</p>
+                <input id="news-box" type="text" name="Newsletter" placeholder="Enter your email" required>
+                <input class="btn" type="Submit" value="Subscribe" onclick="sendNewsletter()">
+            </div>
+        </section>
+        <!--End of Newsletter subscription section-->
+    </main>
+
+    <!--Start of footer section-->
+    <footer>
+        <section>
+            <div class="container-fluid" id="footer">
+                <div class="row">
+                    <div class="col-sm">
+                        <img class="logo" src="images/ebg-logo.png" alt="EBG logo">
+                        <p style="padding-top: 16px;">Follow us on social media</p>
+                        <a href="https://www.facebook.com/anabi.asah"><img class="footer-icons" src="images/f-logo.png" alt="Facebook logo" target="_blank"></a>
+                        <a href="https://twitter.com/asah_anabi"><img class="footer-icons" src="images/t-logo.png" alt="Twitter logo" target="_blank"></a>
+                        <a href="https://liinkedin.com/in/anabi-asah"><img class="footer-icons" src="images/l-logo.png" alt="Linkedin logo" target="_blank"></a>
+                        <a href="#"><img class="footer-icons" src="images/y-logo.png" alt="YouTube logo" target="_blank"></a>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Company</h3>
+                        <a class="footer-text" href="about-us.html">About Us</a><br>
+                        <a class="footer-text" href="index.html#services">Our Services</a><br>
+                        <a class="footer-text" href="index.html#testimonies-section">Testimonials</a><br>
+                        <a class="footer-text" href="index.html#newsletter-section">Our Newsletter</a>
+                    </div>
+                    <div class="col-sm">
+                        <h3>Support</h3>
+                        <a class="footer-text" href="contact.html">Contact Us</a><br>
+                        <a class="footer-text" href="faqs.html">Privacy Policy</a><br>
+                        <a class="footer-text" href="faqs.html">Terms and Conditions</a><br>
+                        <a class="footer-text" href="faqs.html">Frequently Asked Questions</a>
+                        
+                    </div>
+                    <div class="col-sm">
+                        <h3>Address</h3>
+                        
+                        <span>Location: 6th Floor, Goodway Avenue <br>Accra-Ghana GA - 123-456-7890</span><br>
+                        
+                        <span>Phone:</span> <a class="footer-text" href="tel:+233 000 0000">+233 000 111 0000</a><br>
+                        <span>Email:</span> <a class="footer-text" href="mailto:support@ebg.com">support@ebg.com</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="copyright-section">
+                <p>Copyright
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> | <a class="footer-text" href="index.html">ELITE BANKING GROUP</a>
+                </p>
+                <p>Designed with 😍 by ANABI ASAH</p>
+            </div>
+        </section>
+    </footer>
+    <!--End of footer section-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> -->
+</body>
+</html>
