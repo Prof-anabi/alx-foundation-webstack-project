@@ -142,13 +142,15 @@
                 <div  id="form">
                     <h1>Get In Touch</h1>
                     <p>Please enter accurate information.</p>
-                    <form method="POST" id="contact-form">
-                        <input class="input-item" type="text" name="Fullname" id="name" placeholder="Full name" required><br>
-                        <input class="input-item" type="email" name="Email" id="email" placeholder="Email" required><br>
-                        <input class="input-item" type="number" name="Number" id="number" placeholder="Contact number" required><br>
-                        <input class="input-item" type="text" name="Subject" id="subject" placeholder="Subject" required><br>
-                        <textarea class="input-item" name="text-area" id="message" rows="4" placeholder="Type your message here ..." required></textarea><br>
-                        <input class="btn" type="Submit" value="Submit" onclick="sendMail()">
+                    <form action="https://formsubmit.co/anabiasah@gmail.com" method="POST" id="contact-form">
+                        <input class="input-item" type="text" name="name" id="name" placeholder="Full name" required><br>
+                        <input class="input-item" type="email" name="email" id="email" placeholder="Email" required><br>
+                        <input class="input-item" type="number" name="number" id="number" placeholder="Contact number" required><br>
+                        <input class="input-item" type="text" name="subject" id="subject" placeholder="Subject" required><br>
+                        <textarea class="input-item" type="text" name="text-area" id="message" rows="4" placeholder="Type your message here ..." required></textarea><br>
+<!--                         <input class="btn" type="submit" value="Submit" onclick="sendMail()"> -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <button class="btn" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
