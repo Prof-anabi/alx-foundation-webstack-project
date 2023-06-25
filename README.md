@@ -19,6 +19,7 @@ The following technologies have been utilized in the development of the Elite Ba
 - HTML: The structure and markup of the website pages have been created using HTML, providing the foundation for the content and layout.
 - CSS: Cascading Style Sheets (CSS) have been employed to enhance the visual presentation of the website, including styling elements, layouts, and responsiveness.
 - JavaScript: JavaScript has been utilized to add interactivity and dynamic functionality to the website, enabling features such as form validation, user interactions, and data manipulation.
+- Bootstrap: The Bootstrap framework has been integrated into the project to streamline the development process, providing responsive grid layouts, pre-built components, and CSS styles for consistent and modern design.
 - EmailJS: EmailJS, a JavaScript library, has been integrated into the project to facilitate email functionality, allowing users to send messages and inquiries through the website.
 
 ## Setup Instructions
@@ -52,4 +53,4 @@ We welcome contributions to the Elite Banking Group Website project! If you woul
 For any inquiries or feedback regarding the Elite Banking Group Website project, please reach out to me at [anabiasah@gmail.com](mailto:anabiasah@gmail.com).
 
 ## Author
-This project was done by Anabi Asah, a fullstack software engineering student at the ALX Software Engineering program.
+The Elite Banking Group Website project is authored and maintained by Anabi Asah, a fullstack software engineering student at the ALX Software Engineering program.
