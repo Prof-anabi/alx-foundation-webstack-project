@@ -253,6 +253,20 @@
  
 /* Mobile Responsive Area*/
 
+@media screen and (max-width: 900px) {
+  .ncolor{
+    font-size: 18px;
+    text-align: center;
+    background-color: #453e3e;
+  }
+
+  .ncolors{
+    font-size: 18px;
+    text-align: center;
+    background-color: #f2f6ff;
+  }
+}
+
 @media screen and (max-width: 600px) {
   /*Page Styling*/
   #page-body {
