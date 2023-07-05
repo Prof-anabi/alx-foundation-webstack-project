@@ -253,7 +253,7 @@
  
 /* Mobile Responsive Area*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) and (min-width: 601px) {
 
   .page-wrapper{
     background-color: white;
