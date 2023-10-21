@@ -13,6 +13,9 @@
     <script defer src="scripts/bootstrap.bundle.min.js"></script>
     <link rel="icon" type="image/png" href="images/ebg-favicon.png">
 
+    <!-- scroll reveal -->
+    <script defer src="https://unpkg.com/scrollreveal"></script>
+
     <!-- Emailjs scripts -->
     <script src="scripts/index.js"></script>
     <script type="text/javascript"
@@ -77,7 +80,7 @@
                                 </div>
 
                                 <h3>Credit Cards</h3>
-                                <!-- <p>Find a credit card that fits your lifestyle.</p> -->
+                                <p>Find a credit card that fits your lifestyle, without breaking your bank account.</p>
 
                                 <a href="faqs.html" class="read-more-btn">Read More</a>
                             </div>
@@ -90,7 +93,7 @@
                                 </div>
 
                                 <h3>Savings</h3>
-                                <!-- <p>The right savings account can help put your goals within reach.</p> -->
+                                <p>The right savings account to help you put your goals within reach and achieve them.</p>
 
                                 <a href="faqs.html" class="read-more-btn">Read More</a>
                             </div>
@@ -103,7 +106,7 @@
                                 </div>
 
                                 <h3>E-Banking</h3>
-                                <!-- <p>Checking that works for you.</p> -->
+                                <p>Checking that works for you. Reliable online banking solutions on you mobile.</p>
 
                                 <a href="faqs.html" class="read-more-btn">Read More</a>
                             </div>
@@ -116,7 +119,7 @@
                                 </div>
 
                                 <h3>Safe and Secure</h3>
-                                <!-- <p>Learn how we’re focused on being flexible, resilient and responsible.</p> -->
+                                <p>We’re focused on being flexible, resilient and responsible in keeping your funds safe</p>
 
                                 <a href="faqs.html" class="read-more-btn">Read More</a>
                             </div>
@@ -188,52 +191,52 @@
             </div>
             
             <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <!-- <div class="carousel-indicators">
+                <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                </div> -->
+                </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="images/c1.jpg" class="d-block w-100" alt="customer image">
+                    <img src="images/pp-1.jpg" class="d-block w-100" alt="customer image">
                     <div class="carousel-caption c-color">
                       <h5>Rose Appiah - Nurse</h5>
                       <p>EBG is the best banking institution. I am a happy customer.</p>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="5000">
-                    <img src="images/c2.jpg" class="d-block w-100" alt="customer image">
+                    <img src="images/pp-2.png" class="d-block w-100" alt="customer image">
                     <div class="carousel-caption c-color">
                       <h5>James Boadu - Teacher</h5>
                       <p>EBG mobile app provides a seamless banking to everyone.</p>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="5000">
-                    <img src="images/c1.jpg" class="d-block w-100" alt="customer image">
+                    <img src="images/pp-3.jpg" class="d-block w-100" alt="customer image">
                     <div class="carousel-caption c-color">
                       <h5>Ofosu Millicent - Trader</h5>
                       <p>EBG 24 hour loan is a life saver to our businesses.</p>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="5000">
-                    <img src="images/c2.jpg" class="d-block w-100" alt="customer image">
+                    <img src="images/pp-4.jpg" class="d-block w-100" alt="customer image">
                     <div class="carousel-caption c-color">
                       <h5>Isaac Awini - Farmer</h5>
                       <p>With EBG, I can afford farm inputs anyday, anytime.</p>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="5000">
-                    <img src="images/c1.jpg" class="d-block w-100" alt="customer image">
+                    <img src="images/pp-5.jpg" class="d-block w-100" alt="customer image">
                     <div class="carousel-caption c-color">
                       <h5>Sandra Amanor - Seamstress</h5>
                       <p>EBG makes banking easier with their customer support services.</p>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="5000">
-                    <img src="images/c2.jpg" class="d-block w-100" alt="customer image">
+                    <img src="images/pp-6.jpg" class="d-block w-100" alt="customer image">
                     <div class="carousel-caption c-color">
                       <h5>Paul Agyei - Businessman</h5>
                       <p>EBG makes business decisions easier, just a snap.</p>
@@ -247,7 +250,7 @@
 
         <!--Start of Newsletter subscription section-->
         <section>
-            <div id="newsletter-section">
+            <div id="newsletter-section" class="newsletter">
                 <h1>Subscribe to our Newsletter</h1>
                 <p>Get early access to finanacial information and make informed decisions</p>
                 <input id="news-box" type="text" name="Newsletter" placeholder="Enter your email" required>
@@ -288,7 +291,7 @@
                     <div class="col-sm">
                         <h3>Address</h3>
                         
-                        <span>Location: 6th Floor, Goodway Avenue <br>Accra-Ghana GA - 123-456-7890</span><br>
+                        <span>Location: 6th Floor, Goodway Avenue, Accra-Ghana </span>
                         
                         <span>Phone:</span> <a class="footer-text" href="tel:+233 000 0000">+233 000 111 0000</a><br>
                         <span>Email:</span> <a class="footer-text" href="mailto:support@ebg.com">support@ebg.com</a>

@@ -34,6 +34,16 @@
   text-align: justify;
   margin: 3rem;
 }
+
+.c-color {
+  color: #ff6a00;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.c-color > h5 {
+  font-size: 2rem;
+}
 /* Start Navbar Area */
 .navbar-nav{
   font-size: 22px;
@@ -129,7 +139,7 @@
   border-radius: 3px;
   box-shadow: 4px 4px 4px #ccc;
   background-color: white;
-  
+  transition: all .5s ease-in-out;
 }
 
 .service-items > h1 {
@@ -139,6 +149,11 @@
 
 .service-items > p {
   padding: 1rem;
+}
+
+.service-items:hover {
+  transform: scale(1.05);
+  background-color:rgba( 255, 248, 248, 0.4 );
 }
 
 
@@ -195,9 +210,11 @@
 #testimonies{
   text-align: center;
   margin: 0 auto;
-  padding: 24px;
+  padding: 1.5rem;
   background-color: #ccc;
 }
+
+
 
 /*End Testimonies section */
 
@@ -260,6 +277,13 @@
     width: 90%;
     
   }
+
+  .c-color {
+    color: #ff6a00;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+    
   /* Navbar Area*/
   .ncolor{
     font-size: 18px;
@@ -450,9 +474,16 @@ margin-bottom: 48px;
   }
 
   .c-color {
-    color: black;
-    font-weight: 600;
+    color: #ee0979;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    
+  }
+  
+  .c-color > h5 {
+    font-size: 1.5rem;
   }
 
-  
+  /* linear-gradient(90deg, #ee0979 0%, #ff6a00 100%) */
 }

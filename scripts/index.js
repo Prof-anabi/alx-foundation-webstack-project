@@ -45,3 +45,15 @@ function sendNewsletter(){
     .catch((err) => console.log(err));
 }
 
+/*======== scroll reveal ========*/
+ScrollReveal({
+    reset: true,
+    distance: '50px',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.main-banner-content, .single-featured-box .icon, .service-items h3, .download-banner-content h1, .testimonies h1, .newsletter h1', { origin: 'top' });
+ScrollReveal().reveal('.single-featured-box p, .service-items, .testimonies p, .newsletter p', { origin: 'bottom' });
+ScrollReveal().reveal('.main-banner-content h1, single-featured-box h3, .service-items img, .download-banner-content p ', { origin: 'left' });
+ScrollReveal().reveal('.main-banner-content p, .service-items p, .download-banner-content a', { origin: 'right' });
